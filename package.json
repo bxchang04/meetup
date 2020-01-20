@@ -2,6 +2,7 @@
   "name": "meetup",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://bxchang04.github.io/meetup",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,19 +18,23 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
