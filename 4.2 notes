@@ -2,7 +2,7 @@ Prior to authorization:
 https://secure.meetup.com/oauth2/authorize?client_id=
 
 Full
-https://secure.meetup.com/oauth2/authorize?client_id=3dssascu6mej4fuptij43jdbh4&response_type=code&redirect_uri=https://bxchang04.github.io/meetup”
+https://secure.meetup.com/oauth2/authorize?client_id=3dssascu6mej4fuptij43jdbh4&response_type=code&redirect_uri=https://bxchang04.github.io/meetup
 
 Consumer key:
 3dssascu6mej4fuptij43jdbh4
@@ -15,7 +15,7 @@ Consumer redirect_URI:
 https://bxchang04.github.io/meetup/
 
 auth code (1/23/2020)
-db9c9e5c2a93aeb6de2fae5d3c450e3a
+5ae54fbcd365973cc7c502463cb42fd8
 
 
 https://bxchang04.github.io/meetup%20?code=db9c9e5c2a93aeb6de2fae5d3c450e3a
@@ -29,7 +29,7 @@ instruction: 'In the documentation page for the Meetup API, it explains that aut
 
 I input this address into Chrome, meetups asked for authorization and I clicked Allow. But afterwards it gave me a 404 error. The exact text I used was:
 
-https://secure.meetup.com/oauth2/authorize?client_id=3dssascu6mej4fuptij43jdbh4&response_type=code&redirect_uri=https://bxchang04.github.io/meetup”
+https://secure.meetup.com/oauth2/authorize?client_id=3dssascu6mej4fuptij43jdbh4&response_type=code&redirect_uri=https://bxchang04.github.io/meetup
 
 NOTE: my website URL https://bxchang04.github.io/meetup deploys my React page with no errors, so I'm not sure why this step is generating an error.
 
